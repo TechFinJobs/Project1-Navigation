@@ -24,9 +24,11 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 For this project, you will **not** need to install Unity - this is because we have already built the environment for you, and you can download it from one of the links below. You need only select the environment that matches your operating system:
 
-* Mac OSX: <a href="https://github.com/AIinFinance/Project3-Collaboration-and-Competition/files/7648933/Tennis.app.zip" download>click here</a>
-* Windows (32-bit): <a href="https://github.com/AIinFinance/Project3-Collaboration-and-Competition/files/7648930/Tennis_Windows_x86.zip" download>click here</a>
-* Windows (64-bit): <a href="https://github.com/AIinFinance/Project3-Collaboration-and-Competition/files/7648886/Tennis_Windows_x86_64.zip" download>click here</a>
+* Mac OSX: <a href="https://github.com/TechFinJobs/Project1-Navigation/files/7656840/Banana.app.zip" download>click here</a>
+* Windows (32-bit): <a href="https://github.com/TechFinJobs/Project1-Navigation/files/7656839/Banana_Windows_x86.zip" download>click here</a>
+* Windows (64-bit): <a href="https://github.com/TechFinJobs/Project1-Navigation/files/7656835/Banana_Windows_x86_64.zip" download>click here</a>
+ 
+
 
 Then, place the file in your folder in the DRLND GitHub repository, and unzip (or decompress) the file.
 
