@@ -12,12 +12,12 @@ A notable feature in DQN is a (experience) replay buffer. This replay buffer act
 This process is described in the `class` `ReplayBuffer` (see the second part of `dqn_agent.py’`).  
 
 ### DQN agent (see the first `class` of `dqn_agent.py`)
-Here's a big picture of how the agent and the environment interact with each other. The environment provides a state to the agent. The agent needs to act in response to the state provided by the environment. This process is contained in the function `act()`. The function describes the process of how the agent select actions in response to the state provided by the environment. Once the agent select an action, the environment will react to it (see `env.step(action)` in the file `Navigation.ipynb`) and return the reward and the next state to the agent. Thus, agent's action and environment's reaction produce experience tuple (state, action, reward, next state). The function `agent.step()` saves this experience in the ReplayBuffer and also randomly select experiences from the ReplayBuffer. Moreover, the function `agent.step()` updates the parameters of local and target networks through the function `learn()`. The function `learn()` uses backward autograd calculation to obtain derivatives of loss function. The derivatives are used to update the parameters of local and target networks.
+Here's a big picture of how the agent and the environment interact with each other. The environment provides a state to the agent. The agent needs to act in response to the state provided by the environment. This process is contained in the function `act()`. The function describes the process of how the agent select actions in response to the state provided by the environment. Once the agent select an action, the environment will react to it (see `env.step(action)` in the file `Navigation.ipynb`) and return the reward and the next state to the agent. Thus, agent's action and environment's reaction produce experience tuple (state, action, reward, next state). The function `agent.step()` saves this experience in the `ReplayBuffer` and also randomly select experiences from the `ReplayBuffer`. Moreover, the function `agent.step()` updates the parameters of local and target networks through the function `learn()`. The function `learn()` uses backward autograd calculation to obtain derivatives of loss function. The derivatives are used to update the parameters of local and target networks.
 
 # Plots of Rewards
 gg
 <p align="center">
-<img width="50%" src="https://user-images.githubusercontent.com/95396618/144886626-3a96203f-f775-40a7-aef7-d171d9645a4b"/>  
+<img width="100%" src="https://user-images.githubusercontent.com/95396618/144886626-3a96203f-f775-40a7-aef7-d171d9645a4b"/>  
 </p> 
 gg 
 
