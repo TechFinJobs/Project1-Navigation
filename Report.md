@@ -16,13 +16,24 @@ Here's a big picture of how the agent and the environment interact with each oth
 
 # Plots of Rewards
 
-![aggggg](https://user-images.githubusercontent.com/95396618/144886441-e0bda08b-8ea2-4b4d-90fd-be578016170c.PNG)
-![bbzzzzzzz](https://user-images.githubusercontent.com/95396618/144886626-3a96203f-f775-40a7-aef7-d171d9645a4b.PNG)
+<p align="center">
+<img width="80%" src="https://user-images.githubusercontent.com/95396618/144886626-3a96203f-f775-40a7-aef7-d171d9645a4b"/>  
+</p> 
+ 
 
-Ideas for Future Work
-Batch normalization or Droupout
+<p align="center">
+<img width="80%" src="https://user-images.githubusercontent.com/95396618/144886441-e0bda08b-8ea2-4b4d-90fd-be578016170c.PNG"/>  
+</p>  
+
+
+
+# Ideas for Future Work
+
+### Batch normalization or Droupout
 To make the learning algorithm more efficient, we can add bath normalization layer or dropout layer to the file `model.py`.
-Double Q-Learning
+
+### Double Q-Learning
 Since Deep Q-Learning tends to overestimate action values, it is worthwhile to try Double Q-Learning
-Prioritized experienced replay 
+
+### Prioritized experienced replay 
 The agent might learn more effectively from some transitions than from others. Thus, it would produce better performance if the more important experience tuples are being sampled with higher probability. Rather than uniformly sampling experience tuples from the replay buffer, one can prioritize experiences that give the agent more chance to learn more effectively.
