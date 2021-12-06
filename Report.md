@@ -15,12 +15,11 @@ This process is described in the `class` `ReplayBuffer` (see the second part of 
 Here's a big picture of how the agent and the environment interact with each other. The environment provides a state to the agent. The agent needs to act in response to the state provided by the environment. This process is contained in the function `act()`. The function describes the process of how the agent select actions in response to the state provided by the environment. Once the agent select an action, the environment will react to it (see `env.step(action)` in the file `Navigation.ipynb`) and return the reward and the next state to the agent. Thus, agent's action and environment's reaction produce experience tuple (state, action, reward, next state). The function `agent.step()` saves this experience in the `ReplayBuffer` and also randomly select experiences from the `ReplayBuffer`. Moreover, the function `agent.step()` updates the parameters of local and target networks through the function `learn()`. The function `learn()` uses backward autograd calculation to obtain derivatives of loss function. The derivatives are used to update the parameters of local and target networks.
 
 # Plots of Rewards
-gg
+
 <p align="center">
-<img width="100%" src="https://user-images.githubusercontent.com/95396618/144888270-2d480375-c245-40e5-89b0-344d78463835.PNG"/>  
+<img width="50%" src="https://user-images.githubusercontent.com/95396618/144888270-2d480375-c245-40e5-89b0-344d78463835.PNG"/>  
 </p> 
-gg 
- 
+
 
 <p align="center">
 <img width="80%" src="https://user-images.githubusercontent.com/95396618/144886441-e0bda08b-8ea2-4b4d-90fd-be578016170c.PNG"/>  
