@@ -22,7 +22,7 @@ Here's a big picture of how the agent and the environment interact with each oth
 
 
 <p align="center">
-<img width="80%" src="https://user-images.githubusercontent.com/95396618/144886441-e0bda08b-8ea2-4b4d-90fd-be578016170c.PNG"/>  
+<img width="70%" src="https://user-images.githubusercontent.com/95396618/144886441-e0bda08b-8ea2-4b4d-90fd-be578016170c.PNG"/>  
 </p>  
 
 
