@@ -1,6 +1,6 @@
 # Learning Algorithm
 
-Prior to advent of deep neural networks, value-based models use Q-tables in order to induce optimal policies. However, this approach has serious limitations since the size of Q-tables become too large to process when dealing with large state spaces. Deep neural networks come into play to rescue this problem. Deep neural networks allow for approximation of Q-values even in very large state spaces. The value-based algorithms using deep neural networks to approximate Q-values are called Deep Q networks (DQN). 
+Prior to advent of deep neural networks, value-based models use Q-tables in order to induce optimal policies. However, this approach has serious limitations since the size of Q-tables become too large to process when dealing with huge state spaces. Deep neural networks come into play to rescue this problem. Deep neural networks allow for approximation of Q-values even in very large state spaces. The value-based algorithms using deep neural networks to approximate Q-values are called Deep Q networks (DQN). 
 
 ### Building a deep neural network (see the file `model.py`)
 In order to implement DQN in practice you first need to model a deep neural network that will be used for Q-value approximations. The file `model.py` shows the whole process of building a deep neural network. The file `model.py` employs Pytorch’s typical approach of building a neural network. Thus if you are familiar with Pytorch, the whole process will make sense immediately. 
